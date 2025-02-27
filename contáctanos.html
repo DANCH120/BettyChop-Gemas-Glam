@@ -1,0 +1,42 @@
+<img src="img/Info.jpg" alt="">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto - BETTYCHOP GEMAS GLAM</title>
+    <link rel="stylesheet" href="css/contáctanos.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Formulario de Contacto</h1>
+        <form id="contactForm" action="#" method="POST">
+            <!-- Campo para nombres completos -->
+            <div class="form-group">
+                <label for="fullName">Nombres Completos:</label>
+                <input type="text" id="fullName" name="fullName" placeholder="Ej: Juan Pérez" required>
+                <div class="error-message" id="fullNameError">Por favor, ingresa tu nombre completo.</div>
+            </div>
+
+            <!-- Campo para teléfono -->
+            <div class="form-group">
+                <label for="phone">Teléfono:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Ej: 1234567890" required>
+                <div class="error-message" id="phoneError">Por favor, ingresa un número de teléfono válido.</div>
+            </div>
+
+            <!-- Campo para correo electrónico -->
+            <div class="form-group">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="Ej: juan@example.com" required>
+                <div class="error-message" id="emailError">Por favor, ingresa un correo electrónico válido.</div>
+            </div>
+
+            <!-- Botón de enviar -->
+            <div class="form-group">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
